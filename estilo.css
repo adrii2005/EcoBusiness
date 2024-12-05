@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Chango&family=Dancing+Script:wght@400..700&family=Lavishly+Yours&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=McLaren&family=Monoton&family=Oswald:wght@200..700&family=Pacifico&family=Parisienne&family=Praise&family=Raleway:ital,wght@0,100..900;1,100..900&family=Satisfy&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+header {
+    font-family: "Lobster", sans-serif;
+    height: 300px;
+    background-image: url(imagenes1/horizonte.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#tituloscabecera {
+    text-align: center;
+}
+#aa {
+    color: green;
+}
+#bb {
+    color: white;
+}
+nav  {
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+}
+
+nav a {
+    font-size: 20px;
+    padding: 20px;
+    width: 33%;
+    text-align: center;
+    margin: 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+body {
+    background-image: url(imagenes1/ecologia.jpg);
+    margin: 0;
+}
+section {
+    height: 500px;
+}
+article {
+    height: 50%;
+    padding: 20px;
+}
+#bordeverde {
+    border: 4px solid green;
+    border-radius: 15px;
+    height: 100%;
+}
+#bordeverde p{
+    padding: 20px;
+}
+#bordeverde img {
+    float: right;
+    margin-left: 10px;
+    height: 100%;
+    
+}
+footer {
+    background-color: lightgrey;
+    height: 200px;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    padding: 20px;
+    color: green;
+}
